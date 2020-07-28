@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+.container {
+  text-align: center;
+  color: greenyellow;
+  padding: 5px;
+  border-style: dashed;
+  font-size: 3rem;
+  width: 400px;
+  height: 80px;
+  margin: 40px auto;
+}
+h1 {
+  text-align: center;
+  color: greenyellow;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  border-bottom: 4px solid greenyellow;
+  color: greenyellow;
+  margin: 15px auto;
+  text-align: center;
+}
+.image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: 1.5rem;
+    width: 250px;
+    height: 40px;
+  }
+}
