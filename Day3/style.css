@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.nav a {
+  color: #000706;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+.nav-right {
+  float: right;
+}
+
+a:hover {
+  background-color: cyan;
+  border-radius: 80px;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+h2 {
+  font-size: 50px;
+  background-color: cyan;
+  padding: 8px 24px;
+  border-radius: 24px;
+}
+div:nth-child(3) {
+  background-image: url("https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(4) {
+  background-attachment: fixed;
+}
+div:nth-child(5) {
+  background-image: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.a h2 {
+  background: transparent;
+  color: rgb(94, 89, 89);
+}
+.c {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.c img {
+  border-radius: 50%;
+  border: solid 4px white;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: cyan;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(14, 99, 99);
+}
+.container {
+  opacity: 0.8;
+}
