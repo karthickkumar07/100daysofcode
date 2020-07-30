@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav {
+  overflow: hidden;
+  margin-top: 15px;
+}
+.nav a {
+  color: #000706;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+.nav-right {
+  float: right;
+  margin-right: 0;
+}
+.c {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+a:hover {
+  background-color: #bce4df;
+  border-radius: 80px;
+}
+
+.nav-right a:hover {
+  background-color: #f3b6b6;
+  border-radius: 80px;
+}
+h2:hover {
+  background: #f3b6b6;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+.e {
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+h2 {
+  font-size: 52px;
+  background-color: #bce4df;
+  padding: 8px 24px;
+  border-radius: 24px;
+  transition: all 0.35s;
+}
+
+.b {
+  background-image: url("https://lh3.googleusercontent.com/fKnCikrrmTVeQ6y5f3WW0QZwk3GePUmJXxgXMl966ALkbyspLE2IVEfo3UApdZA0z3V9n-0kT_2y4bGUgaCzf_5e8VL9rlGumiUo2Rtv5cFT1ITdJ_-Jk8fq7V7iDx8vq9E8DJFQJs_YSXguu2AECg13i3VrcYRjKNWFC5OYYSUGd_BXCKf2wxLmQj74SFTzxiSiMuXU-9PQDMOxWfmekraYxAaKmA5UUmX_3IBlesv9hLWYBnA48myO6RwP3s4PVypg91FNWyFnFb_0Zg3v0LqZrFpCF_nTvlR_xWgm0eiXjlVsT2QciqXMaVORq4zPm8D6kluBndR96p8IHm33ZpJGIPiIK-OAaOJ8edu_-WMAW0BmdgDKDIcXydWqcNUQ0MDya6oySMtSZx5sN-MrSextYLXR6nO3ehuk1C71phRMpvp9GIACmOB3kOaLz9b0g0FqMolJx1Z_iHenA9Mb3MsNR18rL7DZPEFHktCEr9W32yJRxTa9I4c1O7Dj00oXQfDSQ8W9xDObSFJZFy0NuEQeCLcuG3i9r6svNgVhInVcRD-DMgOZVBbfd10fwpxr2GgDWcSKabGdpLZmuhi8deJ9BhUzA1Crimt8zutw2b5qCoFHZd0VpbWxD9LwSOCMxMr9-TszaenHe48rJDP9c7GQeGv3NX5wmg4J4ZnjcLcc2e_yO9T6TZMzVL3m=w943-h629-no?authuser=0");
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(4) {
+  background-attachment: fixed;
+}
+div:nth-child(5) {
+  background-image: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.a h2 {
+  background: transparent;
+  color: rgb(94, 89, 89);
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.containers {
+  padding: 2px 16px;
+}
+.echild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+  background-color: #b2b2b2;
+  opacity: 0.6;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.skill {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+  background-color: #424242;
+}
+.J,
+.a,
+.mysql,
+.xd {
+  width: 70%;
+}
+.r,
+.n,
+.ja,
+.s {
+  width: 60%;
+}
+.bs,
+.p,
+.fi {
+  width: 80%;
+}
+.mango,
+.he,
+.ne,
+.robo {
+  width: 90%;
+}
+.u {
+  width: 75%;
+}
+.w {
+  width: 85%;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #bce4df;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin-top: 35px;
+  margin-left: 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
+.mail {
+  width: 310px;
+}
+@media only screen and (max-width: 600px) {
+  .nav a {
+    font-size: 18px;
+  }
+  .nav-right {
+    float: left;
+  }
+  .c {
+    font-size: 6px;
+    background-size: contain;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-attachment: fixed;
+  }
+  .b {
+    background-size: contain;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+  }
+  .cards {
+    font-size: 10px;
+    width: 30%;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .tooltiptext {
+    font-size: 10px;
+    width: 50px;
+  }
+  .mail {
+    width: 150px;
+  }
+  .div:nth-child(5) {
+    background-attachment: fixed;
+  }
+  .div:nth-child(4) {
+    background-attachment: fixed;
+  }
+}
