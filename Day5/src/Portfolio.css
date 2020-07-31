@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav {
+  overflow: hidden;
+  margin-top: 15px;
+}
+.nav a {
+  color: #000706;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+.nav-right {
+  float: right;
+  margin-right: 0;
+}
+.head {
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  animation: animate 1s ease-in-out infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40%,
+  100% {
+    transform: translateY(0px);
+  }
+}
+.c {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+a:hover {
+  background-color: #bce4df;
+  border-radius: 80px;
+}
+
+.nav-right a:hover {
+  background-color: #f3b6b6;
+  border-radius: 80px;
+}
+h2:hover {
+  background: #f3b6b6;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+.e {
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+}
+h2 {
+  font-size: 52px;
+  background-color: #bce4df;
+  padding: 8px 24px;
+  border-radius: 24px;
+  transition: all 0.35s;
+}
+.img1 {
+  background-image: url("./project1.png");
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+}
+.img2 {
+  background-image: url("./project2.png");
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+}
+.img3 {
+  background-image: url("./project3.png");
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+}
+.b {
+  background-image: url("./karthick.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+div:nth-child(4) {
+  background-attachment: fixed;
+}
+div:nth-child(5) {
+  background-image: url("https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.a h2 {
+  background: transparent;
+  color: rgb(94, 89, 89);
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.containers {
+  padding: 2px 16px;
+}
+.echild {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 80%;
+  margin: auto;
+  background-color: #b2b2b2;
+  opacity: 0.6;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-name: example;
+}
+.skill {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+  background-color: #424242;
+}
+@keyframes example {
+  0% {
+    /* background-color: red; */
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    /* background-color: yellow; */
+    left: 200px;
+    top: 0px;
+  }
+
+  100% {
+    /* background-color: red; */
+    left: 0px;
+    top: 0px;
+  }
+}
+.J,
+.a,
+.mysql,
+.xd {
+  width: 70%;
+}
+.r,
+.n,
+.ja,
+.s {
+  width: 60%;
+}
+.bs,
+.p,
+.fi {
+  width: 80%;
+}
+.mango,
+.he,
+.ne,
+.robo {
+  width: 90%;
+}
+.u {
+  width: 75%;
+}
+.w {
+  width: 85%;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #bce4df;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin-top: 35px;
+  margin-left: 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
+.mail {
+  width: 310px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./download.png");
+  }
+  .nav a {
+    font-size: 17px;
+  }
+  .nav-right {
+    float: left;
+  }
+  .c {
+    font-size: 6px;
+    background-size: contain;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-attachment: fixed;
+  }
+  .b {
+    background-image: url("./karthi.jpg");
+  }
+  .cards {
+    font-size: 10px;
+    width: 30%;
+  }
+  h2 {
+    font-size: 40px;
+    background-color: #666;
+    opacity: 0.7;
+  }
+  h2:hover {
+    background-color: #fff;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .tooltiptext {
+    font-size: 10px;
+    width: 50px;
+  }
+  .mail {
+    width: 150px;
+  }
+  .div:nth-child(5) {
+    background-attachment: fixed;
+    background-image: url("https://images.unsplash.com/photo-1485278537138-4e8911a13c02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  }
+  .div:nth-child(4) {
+    background-attachment: fixed;
+  }
+  .img1 {
+    height: 70px;
+    width: 100%;
+  }
+  .img2 {
+    height: 70px;
+    width: 100%;
+  }
+  .img3 {
+    height: 70px;
+    width: 100%;
+  }
+  a:hover {
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+  .nav-right a:hover {
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  .a h2 {
+    font-size: 30px;
+    color: #2b2b52;
+  }
+}
