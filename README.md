@@ -24,3 +24,8 @@
 
 
 #Day7=TicTacToe with React
+
+
+#Day8= --->Django Starts<---
+             admin panel 
+             catgories model
