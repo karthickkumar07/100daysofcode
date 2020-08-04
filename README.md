@@ -29,3 +29,5 @@
 #Day8= --->Django Starts<---
              admin panel 
              catgories model
+             
+#day9= backend python product model  + python neccessary sets
