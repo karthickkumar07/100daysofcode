@@ -34,3 +34,6 @@
 
 
 #day10=search and sort algos
+
+
+#day11= Django custom user model with auth
