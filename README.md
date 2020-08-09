@@ -42,3 +42,5 @@
 
 
 #day13=Django Braintree payment System
+
+#day14=Django setup commands
