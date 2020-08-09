@@ -1,0 +1,34 @@
+
+### To check the version ###
+python3 
+
+
+### create workspace ###
+create a directory 
+cd Desktop
+mkdir workspace
+cd workspace 
+
+### creating virtual env ###
+pip3 install pipenv 
+
+### activate or use the environment ###
+pipenv shell
+
+### managing virtual environment ##
+pip3 freeze 
+pipenv install dependency
+pipenv install Django 
+
+### Django commands
+django-admin
+django-admin startproject projectName
+django-admin startapp appName
+cd projectName
+python3 manage.py runserver 
+python3 manage.py createsuperuser
+python3 manage.py makemigrations
+python3 manage.py migrate 
+
+
+
