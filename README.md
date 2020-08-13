@@ -51,3 +51,5 @@
 
 
 #Day17=Ecommerce react frontend
+
+#Day18=Django demo todo
