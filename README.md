@@ -53,3 +53,5 @@
 #Day17=Ecommerce react frontend
 
 #Day18=Django demo todo
+
+#Day19=Django React Authentication Fullstack with sessiontoken
