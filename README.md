@@ -64,3 +64,5 @@
 #Day22=Nodejs docs
 
 #Day23=mongo image saving into DB
+
+#Day24=update image in DB
