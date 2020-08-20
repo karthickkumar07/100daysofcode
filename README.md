@@ -66,3 +66,5 @@
 #Day23=mongo image saving into DB
 
 #Day24=update image in DB
+
+#Day25=Passport Authentication && bcrypt
