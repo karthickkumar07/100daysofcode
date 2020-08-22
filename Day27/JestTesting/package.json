@@ -1,0 +1,17 @@
+{
+  "name": "jesttesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "karthick",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
