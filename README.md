@@ -88,3 +88,5 @@
 #Day34=React redux simple app
 
 #Day35=React Hooks
+
+#Day36=Postgres rest api with db connection
