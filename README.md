@@ -100,3 +100,5 @@
 #Day40=Angular template driven forms with validations
 
 #Day41=Angular Reactive forms with custom validation
+
+#Day42 Angular tic-tac-toe app
