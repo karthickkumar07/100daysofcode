@@ -1,0 +1,10 @@
+/home/karthick/Desktop/csharp-files/colorchanger/bin/Debug/netcoreapp2.0/colorchanger.deps.json
+/home/karthick/Desktop/csharp-files/colorchanger/bin/Debug/netcoreapp2.0/colorchanger.runtimeconfig.json
+/home/karthick/Desktop/csharp-files/colorchanger/bin/Debug/netcoreapp2.0/colorchanger.runtimeconfig.dev.json
+/home/karthick/Desktop/csharp-files/colorchanger/bin/Debug/netcoreapp2.0/colorchanger.dll
+/home/karthick/Desktop/csharp-files/colorchanger/bin/Debug/netcoreapp2.0/colorchanger.pdb
+/home/karthick/Desktop/csharp-files/colorchanger/obj/Debug/netcoreapp2.0/colorchanger.csproj.CoreCompileInputs.cache
+/home/karthick/Desktop/csharp-files/colorchanger/obj/Debug/netcoreapp2.0/colorchanger.AssemblyInfoInputs.cache
+/home/karthick/Desktop/csharp-files/colorchanger/obj/Debug/netcoreapp2.0/colorchanger.AssemblyInfo.cs
+/home/karthick/Desktop/csharp-files/colorchanger/obj/Debug/netcoreapp2.0/colorchanger.dll
+/home/karthick/Desktop/csharp-files/colorchanger/obj/Debug/netcoreapp2.0/colorchanger.pdb
