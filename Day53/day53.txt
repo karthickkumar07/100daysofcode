@@ -1,0 +1,14 @@
+jsp 
+
+jsp to servlets 
+
+scriptlet 
+Declaration
+directive
+expression
+
+Implicit objects
+
+Jsp directive
+
+MVC using servlet and jsp
