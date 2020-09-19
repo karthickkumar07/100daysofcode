@@ -1,0 +1,6 @@
+<h1>Project Views</h1>
+<%= @project.each do |p| %>
+<h3><%= p.title %></h3>
+<p><%= p.body %></p>
+<button type="button" name="button"> <%= link_to "READ More", project_path(p) %> </button>
+<% end %>
