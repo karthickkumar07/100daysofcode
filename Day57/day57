@@ -1,0 +1,31 @@
+Rails Commands 
+
+// create rails app 
+rails new name 
+
+// directory 
+cd name 
+
+//create controller 
+rails g controller name 
+
+//routes file 
+root 'controller#html' 
+get 'controller#html'
+resources :controller 
+
+//view routes
+rake routes 
+
+//create a model
+rails g model name name:datatype 
+rake db:migrate 
+rails db:create 
+
+// validations in model file
+class ModelName < ActiveRecord::Base
+  validates :title, presence:true,length: {minimum: 5}
+end 
+
+// to run rails server 
+rails s
