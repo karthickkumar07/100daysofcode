@@ -142,3 +142,5 @@
 #Day69= proshop frontend part-1
 
 #Day70= proshop backend-1
+
+#Day71 =proshop redux part
